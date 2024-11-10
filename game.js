@@ -25,8 +25,8 @@ window.onload = function() {
 
 // ==================== NEW CODE STARTS HERE ====================
 
-// Replace 'http://your-ec2-ip:3000' with your actual EC2 server IP address.
-const BASE_URL = 'http://your-ec2-ip:3000';
+
+const BASE_URL = 'http://54.152.247.32:3000'
 
 // Function to submit the score to the backend server
 function submitScore(username, score) {
@@ -64,4 +64,3 @@ function gameOver(score) {
     submitScore(username, score);
     getLeaderboard();
 }
-
