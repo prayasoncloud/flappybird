@@ -1,13 +1,28 @@
 <!DOCTYPE html>
-<html>
-	<title>Flappy Bird</title>
-	<head>
-		<link rel="shortcut icon" href="assets/flappy.ico" />
-        <link rel="stylesheet" type="text/css" href="game.css">
-        <script type="text/javascript" src="phaser.min.js"></script>
-        <script type="module" src = "game.js"></script>
-    </head>
-	<body>
-		<div style="font-family:font1; position:absolute; left:-1000px; visibility:hidden;">.</div>
-	</body>
-</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/flappy.ico" />
+    <!-- CSS for styling -->
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <!-- Phaser Game Engine -->
+    <script type="text/javascript" src="phaser.min.js"></script>
+    <!-- Game Script -->
+    <script type="module" src="game.js"></script>
+</head>
+<body>
+    <!-- Game Container -->
+    <div id="game-container"></div>
+
+    <!-- Leaderboard Section -->
+    <div id="leaderboard" style="margin-top: 20px;">
+        <h2>Leaderboard</h2>
+        <div id="leaderboard-entries"></div>
+    </div>
+
+    <!-- Hidden Font Fix -->
+    <div styl
+
